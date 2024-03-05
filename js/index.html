@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>java_script</title>
+</head>
+<body>
+    <h1 class="h1">Arithmatic operators in java-script</h1>
+    <div class="ol">
+        <ol>
+           <li>Addition (+)</li>
+           <li>Subtraction (-)</li>
+           <li>Multiplication (*)</li>
+           <li>Division (/)</li>
+           <li>Remainder or (Modulus) (%)</li>
+           <li>Exponent or (power) (**)</li>
+           <li>Increment(++)</li>
+           <li>Decrement (--)</li>
+        </ol>
+    </div>
+
+
+   <h1 class="js"> <script>
+        //Area of rectangle (length * Width)
+        
+        var l = prompt("Enter the length of rectangle in numbers: ");
+        var w = prompt("Enter the width of rectangle in numbers: ");
+        document.write("Area of rectangle is :",l*w);
+
+
+        //Area of Triangle (1/2*(b)(h))
+
+        var b = promp("Enter the base of triangle in numbers :");
+        var h = prompt("Enter the height of triangle :");
+        document.write("Area of teriangle is :",(0.5)*(b)*(h));
+
+
+        //Area of circle (pi*r**2)
+
+        var radius = prompt("Enter the radius in numbers: ");
+        document.write("Area of circle is :",(3.145)*(radius**2));
+
+
+
+        //Temprature from celsius to fehrenheit (c*1.8+(32))
+
+        var temp_cel=prompt("Enter temprature in celsius :");
+        document.write("Temprature in Fehrenheit is: ",(temp_cel*1.8)+(32)+"Degree");
+
+
+        //Temprature from fehrenheit to celsius ((f-32)/1.8)
+
+        var temp_fer=prompt("Enter the temprature in Fehrenheit: ");
+        document.write("Temprature in Celsious is :",(temp_fer-32)/(1.8)+"Degree");
+     </script> </h1>
+</body>
+</html>
